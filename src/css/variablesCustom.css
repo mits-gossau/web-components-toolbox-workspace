@@ -5,7 +5,7 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 /* font tracking */
-@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=15e0d230-9ed9-11ec-b670-06c4e8753e28");
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=798548d0-cd18-11ec-9404-069abf4c3446");
 :root {
   --footer-default-invert-background-color-custom:var(--m-black);
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2); /* header.height / 2 - logo.height / 2 */
