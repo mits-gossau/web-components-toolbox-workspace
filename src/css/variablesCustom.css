@@ -7,7 +7,6 @@
 /* font tracking */
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=798548d0-cd18-11ec-9404-069abf4c3446");
 :root {
-  --footer-default-a-color-hover:var(--m-green-600);
   --footer-default-a-color:var(--color);
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration:none;
