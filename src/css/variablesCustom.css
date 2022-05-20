@@ -7,7 +7,14 @@
 /* font tracking */
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=798548d0-cd18-11ec-9404-069abf4c3446");
 :root {
+  --footer-default-a-color-hover:var(--m-green-600);
+  --footer-default-a-color:var(--color);
+  --footer-default-a-text-decoration-hover: underline;
+  --footer-default-a-text-decoration:none;
+  --footer-default-a-text-underline-offset:0.3em;
+  --footer-default-gap-custom:0;
   --footer-default-invert-background-color-custom:var(--m-black);
+  --footer-default-margin:0 1em 3em 0;
   --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2); /* header.height / 2 - logo.height / 2 */
   --header-default-a-menu-icon-background-color-custom:var(--color);
   --header-default-background-color-custom: var(--background-color);
