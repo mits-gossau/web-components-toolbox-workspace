@@ -58,8 +58,14 @@
 
 
 
+  --language-switcher-default-content-width: var(--header-default-content-width);
+
+
+/*Header*/
   --header-default-margin-mobile-custom: 0;
 
+
+  /*Footer*/
     --footer-default-a-color: var(--color);
     --footer-default-a-text-decoration-hover: underline;
     --footer-default-a-text-decoration: none;
