@@ -44,9 +44,9 @@
   --color-hover: #444444;
   --color-secondary: #ce272e;
   --color-tertiary: var(--color-secondary);
-  --color: #676767;
   --h-color: #444;
- 
+  --color: #676767;
+  
 
  /*Img*/
  --cover-img-min-width:100%;
@@ -56,18 +56,22 @@
  --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
  --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
 
-
+/*Content Width*/
   --content-width: 75%;
 
 
-
+  /*Teaser*/
+  --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
+  --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
 
 /*Header*/
   --header-default-margin-mobile-custom: 0;
+  --header-default-margin-custom: 0 0 0 5%;
   --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
-  --header-default-logo-width-custom: min(9em,170px);
+  --header-default-logo-width-custom: min(12em,190px);
   --language-switcher-default-content-width: var(--header-default-content-width);
 
+  --navigation-default-margin: 3%;
 
 
   /*Footer*/
@@ -84,4 +88,7 @@
     --navigation-default-color-custom: var(--color);
     --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
     --emotion-pictures-with-title-bg-color-custom: var(--m-black);
+
+
+  
 }
