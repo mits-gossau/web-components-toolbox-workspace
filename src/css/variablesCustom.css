@@ -9,7 +9,7 @@
 /* Open Sans Font */
 @font-face {
   font-family: 'Open Sans';
-  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,8 +21,8 @@
 --background-color: #ffffff;
 
 /*Font Family*/
---font-family:Open Sans;
- --font-family-bold: Open Sans;
+--font-family: Open Sans;
+ --font-family-bold: var(--font-family);
   --font-family-secondary: var(--font-family);
  
 /*Font Sizes*/ 
@@ -35,8 +35,9 @@
 
 
 /*Font Colors*/
+--underline-color: var(--h-color);
  --underline-color-hover-custom: var(--color-active);
-  
+ --underline-color-hover: var(--color-active);
   --color-active: #ce272e;
   --color-disabled: #e9e9e9;
   --color-error: var(--color-active);
@@ -54,15 +55,19 @@
  --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
  --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
  --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
-  --content-width: 60%;
 
 
+  --content-width: 75%;
 
-  --language-switcher-default-content-width: var(--header-default-content-width);
+
 
 
 /*Header*/
   --header-default-margin-mobile-custom: 0;
+  --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
+
+  --language-switcher-default-content-width: var(--header-default-content-width);
+
 
 
   /*Footer*/
