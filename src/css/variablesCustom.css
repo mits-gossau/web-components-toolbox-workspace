@@ -33,12 +33,10 @@
 
   --grid-2colums2rows-a-text-decoration: none;
   --h6-font-weight: 600;
-
+  --underline-font-weight: 600;
 
 /*Font Colors*/
---underline-color: var(--h-color);
- --underline-color-hover-custom: var(--color-active);
- --underline-color-hover: var(--color-active);
+
   --color-active: #ce272e;
   --color-disabled: #e9e9e9;
   --color-error: var(--color-active);
@@ -47,7 +45,10 @@
   --color-tertiary: var(--color-secondary);
   --h-color: #444;
   --color: #676767;
-  
+  --underline-color: var(--h-color);
+ --underline-color-hover-custom: var(--color-active);
+ --underline-color-hover: var(--color-active);
+
 
  /*Img*/
  --cover-img-min-width:100%;
@@ -64,11 +65,13 @@
   /*Teaser*/
   --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
+  /*--underline-text-decoration-hover: 4px solid green;*/
 
 /*Header*/
 /*--header-default-width: 50%;*/
-  --header-default-margin-mobile-custom: 0;
-  --header-default-margin-custom: 0 0 0 5%;
+  /* --header-default-margin-mobile-custom: 0;
+ --header-default-margin-custom: 0 0 0 5%;*/
+ --header-default-padding: 1% 2%;
   --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
   --header-default-logo-width-custom: min(12em,190px);
   --language-switcher-default-content-width: var(--header-default-content-width);
