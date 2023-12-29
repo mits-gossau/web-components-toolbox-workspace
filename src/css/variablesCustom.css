@@ -73,7 +73,8 @@
 /*--header-default-width: 50%;*/
   /* --header-default-margin-mobile-custom: 0;
  --header-default-margin-custom: 0 0 0 5%;*/
- --header-default-padding: 1% 32%;
+ --header-default-padding: 1% 27%;
+ --header-default-padding-mobile: 1 2%;
   --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
   --header-default-logo-width-custom: min(12em,190px);
   --language-switcher-default-content-width: var(--header-default-content-width);
