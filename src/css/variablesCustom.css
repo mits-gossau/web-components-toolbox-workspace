@@ -57,6 +57,7 @@
  --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
  --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
  --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
+ --scale-up-img-width: 30%;
 
 /*Content Width*/
   --content-width: 70%;
