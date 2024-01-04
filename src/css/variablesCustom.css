@@ -101,6 +101,7 @@
     --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
     --emotion-pictures-with-title-bg-color-custom: var(--m-black);
 
+    --details-default-icon-right-font-weight-strong: 500;
     --footer-default-invert-svg-color-custom: #ffffff;
 
 }
