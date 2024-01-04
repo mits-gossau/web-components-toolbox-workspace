@@ -100,4 +100,7 @@
     --navigation-default-color-custom: var(--color);
     --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
     --emotion-pictures-with-title-bg-color-custom: var(--m-black);
+
+    --footer-default-invert-svg-color-custom: #ffffff;
+
 }
