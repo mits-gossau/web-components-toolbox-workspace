@@ -44,7 +44,7 @@
   --color-secondary: #ce272e;
   --color-tertiary: var(--color-secondary);
   --h-color: #444;
-  --color: #676767;
+  --color: #ffffff;
   --underline-color: var(--h-color);
  --underline-color-hover-custom: var(--color-active);
  --underline-color-hover: var(--color-active);
@@ -67,7 +67,11 @@
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   /*--underline-text-decoration-hover: 4px solid green;*/
   --teaser-tile-p-line-height-custom: 1.5em;
-  
+
+
+  /*Contact Page*/  
+  --wrapper-teaser-any-1-width: 80%;
+  --wrapper-teaser-any-2-width: 20%;
 
 /*Header*/
 /*--header-default-width: 50%;*/
