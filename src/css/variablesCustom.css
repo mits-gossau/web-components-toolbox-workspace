@@ -72,6 +72,9 @@
   --navigation-default-color-custom: var(--color);
   --navigation-default-margin: 3%;
   --scale-up-img-width: 30%;
+  --scale-up-img-width-mobile: 80%;
+  --scale-up-img-margin-mobile: -11% auto auto auto;
+  --scale-up-img-margin: 7% auto auto auto;
   --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
