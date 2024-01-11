@@ -86,7 +86,7 @@
 
   --logo-default-margin: 0 0 0 4%;
   --navigation-default-margin: 3%;
-  --navigation-default-text-transform: uppercase;
+  --navigation-default-a-link-text-transform-custom: uppercase;
 
   /*Footer*/
   --footer-default-content-width:66%;
