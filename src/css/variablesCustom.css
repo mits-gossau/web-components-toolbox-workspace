@@ -26,11 +26,13 @@
  --font-family-bold: var(--font-family);
   --font-family-secondary: var(--font-family);
  
+  --any-content-spacing: auto auto 3% auto;
+
 /*Font Sizes*/
  --h5-font-size: 1.5em;
  --h6-font-size: 0.8em;
   --teaser-tile-p-font-size: 1.3em ;
-  --h1-margin: 3% 0 0 0;
+  --h1-margin: 3% auto auto auto;
   --grid-2colums2rows-a-text-decoration: none;
   --h6-font-weight: 600;
   --underline-font-weight: 600;
@@ -81,7 +83,7 @@
  --header-default-padding: 1% 27%;
  --header-default-padding-mobile: 1 2%;
   --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
-  --header-default-logo-width-custom: min(12em,190px);
+  --header-default-logo-width-custom: min(12rem,190px);
   --language-switcher-default-content-width: var(--header-default-content-width);
 
   --logo-default-margin: 0 0 0 4%;
