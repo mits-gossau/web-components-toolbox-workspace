@@ -65,7 +65,8 @@
   --header-default-margin-custom:0;
   --header-default-padding: 1% 27%;
   --header-default-padding-mobile: 1 2%;
-  --header-default-justify-content: unset;
+  --header-default-justify-content: flex-start;
+  --header-default-content-spacing: auto -7% auto auto;
   --img-height-mobile: 20em;
   --language-switcher-default-content-width: var(--header-default-content-width);
   --logo-default-margin: 0 0 0 4%;
