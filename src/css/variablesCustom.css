@@ -29,7 +29,9 @@
   --content-width: 69%;
   --cover-img-height:70vh;
   --cover-img-min-width:100%;
+  --carousel-two-thumbnail-background-color: #ffffff;
   --details-default-icon-right-font-weight-strong: 500;
+  --details-default-a-color: var(--color-active);
   --emotion-pictures-default-img-max-height: 58vh;
   --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
   --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
