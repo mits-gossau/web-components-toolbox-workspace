@@ -5,14 +5,86 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 
-/* font tracking */
-@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=125846b7-fef7-43e2-bb9b-968c52e068bd");
 
+/* Open Sans Font */
+@font-face {
+  font-family: 'OpenSans';
+  /*src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');*/
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+  
 :root {
-
-
-
-
-    
-
+  --background-color: pink;
+  --color: green;
+  --color-active: yellow;
+  --color-disabled: #e9e9e9;
+  --color-error: var(--color-active);
+  --color-hover: #444444;
+  --color-secondary: #ce272e;
+  --color-tertiary: var(--color-secondary);
+  --content-width: 69%;
+  --cover-img-height:70vh;
+  --cover-img-min-width:100%;
+  --carousel-two-thumbnail-background-color: #ffffff;
+  --details-default-icon-right-font-weight-strong: 500;
+  --details-default-a-color: var(--color-active);
+  --emotion-pictures-default-img-max-height: 58vh;
+  --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
+  --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
+  --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
+  --emotion-pictures-with-title-bg-color-custom: var(--m-black);
+  --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
+  --font-family: 'OpenSans';
+  --font-family-bold: var(--font-family);
+  --font-family-secondary: var(--font-family);
+  --footer-default-a-color: var(--color);
+  --footer-default-footer-margin: 3% auto auto auto;
+  --footer-default-a-text-decoration: none;
+  --footer-default-a-text-decoration-hover: underline;
+  --footer-default-a-text-underline-offset: 0.3em;
+  --footer-default-content-width:66%;
+  --footer-default-h4-color: #ffffff;
+  --footer-default-invert-a-color-hover-custom: var(--color-active);
+  --footer-default-invert-background-color-custom: #1C1C1C;
+  --footer-default-invert-svg-color-custom: #ffffff;
+  --grid-2colums2rows-a-text-decoration: none;
+  --h-color: #444;
+  --h1-text-transform: uppercase;
+  --h5-font-size: 1.5em;
+  --h6-font-size: 0.8em;
+  --h6-font-weight: 600;
+  --header-default-a-logo-top-custom: calc(62px / 2 - 90px / 2);
+  --header-default-a-logo-top-mobile-custom: calc(69px / 2 - 25.5px / 2);
+  --header-default-a-menu-icon-background-color-custom: var(--color);
+  --header-default-background-color-custom: #ffffff;
+  --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
+  --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
+  --header-default-logo-width-custom: min(12rem,190px);
+  --header-default-margin-custom:0;
+  --header-default-padding: 1% 27%;
+  --header-default-padding-mobile: 1 2%;
+  --header-default-justify-content-custom: flex-end;
+  --header-default-content-spacing: auto -7% auto auto;
+  --img-height-mobile: 20em;
+  --language-switcher-default-content-width: var(--header-default-content-width);
+  --logo-default-margin: 0 0 0 4%;
+  --navigation-default-a-link-text-transform-custom: uppercase;
+  --navigation-default-color-custom: var(--color);
+  --navigation-default-margin: 3%;
+  --scale-up-img-width: 30%;
+  --scale-up-img-width-mobile: 80%;
+  --scale-up-img-margin-mobile: -3% auto auto auto;
+  --scale-up-img-margin: 7% auto auto auto;
+  --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
+  --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
+  --teaser-tile-p-font-size: 1.3em;
+  --teaser-tile-p-line-height-custom: 1.5em;
+  --underline-color: var(--h-color);
+  --underline-color-hover: var(--color-active);
+  --underline-color-hover-custom: var(--color-active);
+  --underline-font-weight: 600;
 }
