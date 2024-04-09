@@ -9,10 +9,22 @@
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=125846b7-fef7-43e2-bb9b-968c52e068bd");
 
 :root {
+  --color: #66e2e0;
+  --color-secondary:  #0354a3;
+  --color-tertiary: #FFFFFF;
 
+  --background-color: var(--m-white, #FFFFFF);
+  
+  --color-active: #444444;
+  --accent-color:#792a52;
+  --color-disabled: var(--m-black, #000000);
+  --color-hover: var(--accent-color);
 
-
-
-    
-
+  /* We will need these color below for navigation */
+  --curse-custom-color: #66e2e0;
+  --memberships-custom-color: #0354a3;
+  --open-class-custom-color: #792a52;
+  --children-custom-color: #137d71;
+  --events-custom-color: #83B69F;
+  --event-location-custom-color: #b1bdc5; 
 }
