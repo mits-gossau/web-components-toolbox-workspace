@@ -6,26 +6,52 @@
   */
 
 
-/* Open Sans Font */
+/* HelveticaNowText Font */
 @font-face {
-  font-family: 'OpenSans';
-  /*src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');*/
-  src: url(https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  font-family: 'HelveticaNowText';
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Regular.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* HelveticaNowTextBold Font */
+@font-face {
+  font-family: 'HelveticaNowTextBold';
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Bold.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
   
 :root {
-  --background-color: pink;
-  --color: green;
-  --color-active: yellow;
-  --color-disabled: #e9e9e9;
-  --color-error: var(--color-active);
-  --color-hover: #444444;
-  --color-secondary: #ce272e;
-  --color-tertiary: var(--color-secondary);
+  --color: #66e2e0;
+  --color-secondary:  #0354a3;
+  --color-tertiary: #FFFFFF;
+
+  --background-color: var(--m-white, #FFFFFF);
+  
+  --color-active: #444444;
+  --accent-color:#792a52;
+  --color-disabled: var(--m-black, #000000);
+  --color-hover: var(--accent-color);
+
+  /* We will need these color below for navigation */
+  --curse-custom-color: #66e2e0;
+  --memberships-custom-color: #0354a3;
+  --open-class-custom-color: #792a52;
+  --children-custom-color: #137d71;
+  --events-custom-color: #83B69F;
+  --event-location-custom-color: #b1bdc5; 
+
+
+
+
+
+
+  /*Identical Part from TheFlow*/
   --content-width: 69%;
   --cover-img-height:70vh;
   --cover-img-min-width:100%;
@@ -38,8 +64,8 @@
   --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
   --emotion-pictures-with-title-bg-color-custom: var(--m-black);
   --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
-  --font-family: 'OpenSans';
-  --font-family-bold: var(--font-family);
+  --font-family: 'HelveticaNowText';
+  --font-family-bold: 'HelveticaNowTextBold';
   --font-family-secondary: var(--font-family);
   --footer-default-a-color: var(--color);
   --footer-default-footer-margin: 3% auto auto auto;
