@@ -9,8 +9,8 @@
 /* Open Sans Font */
 @font-face {
   font-family: 'OpenSans';
-  /*src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');*/
-  src: url(https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');
+ /* src: url(https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');*/
   font-weight: normal;
   font-style: normal;
   font-display: swap;

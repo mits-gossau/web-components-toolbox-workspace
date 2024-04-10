@@ -5,6 +5,8 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 
+/* font tracking */
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=93986a71-63c8-4365-aa0f-1febdf005b50");
 
 /* HelveticaNowText Font */
 @font-face {
