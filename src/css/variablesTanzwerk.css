@@ -94,6 +94,7 @@
   --header-default-logo-width-custom: min(12rem,190px);
   --header-default-margin-custom:0;
   --header-default-padding: 1% 27%;
+  --header-default-width: 67%;
   --header-default-padding-mobile: 1 2%;
   --header-default-justify-content-custom: flex-end;
   --header-default-content-spacing: auto -7% auto auto;
