@@ -29,7 +29,7 @@
 
   
 :root {
-  --color: #66e2e0;
+  --color: #000000;
   --color-secondary:  #0354a3;
   --color-tertiary: #FFFFFF;
 
@@ -47,9 +47,6 @@
   --children-custom-color: #137d71;
   --events-custom-color: #83B69F;
   --event-location-custom-color: #b1bdc5; 
-
-
-
 
 
 
@@ -74,7 +71,7 @@
   --footer-default-a-text-decoration: none;
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-underline-offset: 0.3em;
-  --footer-default-content-width:66%;
+  --footer-default-content-width: 66%;
   --footer-default-h4-color: #ffffff;
   --footer-default-invert-a-color-hover-custom: var(--color-active);
   --footer-default-invert-background-color-custom: #1C1C1C;
