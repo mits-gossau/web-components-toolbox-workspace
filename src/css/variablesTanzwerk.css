@@ -107,6 +107,7 @@
   --scale-up-img-margin-mobile: -3% auto auto auto;
   --scale-up-img-margin: 7% auto auto auto;
   --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
+  --teaser-tile-figcaption-margin: 3em 0em 0em 0em;
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
