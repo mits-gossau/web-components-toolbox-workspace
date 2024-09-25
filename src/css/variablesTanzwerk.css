@@ -10,8 +10,9 @@
 
 /* HelveticaNowText Font */
 @font-face {
-  font-family: 'HelveticaNowText';
-  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Regular.woff2) format('woff2');
+  font-family: "HelveticaNowText";
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Regular.woff2)
+    format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,24 +20,23 @@
 
 /* HelveticaNowTextBold Font */
 @font-face {
-  font-family: 'HelveticaNowTextBold';
-  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Bold.woff2) format('woff2');
+  font-family: "HelveticaNowTextBold";
+  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowTextW05-Bold.woff2)
+    format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-
-  
 :root {
   --color: #000000;
-  --color-secondary:  #0354a3;
-  --color-tertiary: #FFFFFF;
+  --color-secondary: #0354a3;
+  --color-tertiary: #ffffff;
 
-  --background-color: var(--m-white, #FFFFFF);
-  
+  --background-color: var(--m-white, #ffffff);
+
   --color-active: #444444;
-  --accent-color:#792a52;
+  --accent-color: #792a52;
   --color-disabled: var(--m-black, #000000);
   --color-hover: var(--accent-color);
 
@@ -45,26 +45,30 @@
   --memberships-custom-color: #0354a3;
   --open-class-custom-color: #792a52;
   --children-custom-color: #137d71;
-  --events-custom-color: #83B69F;
-  --event-location-custom-color: #b1bdc5; 
-
-
+  --events-custom-color: #83b69f;
+  --event-location-custom-color: #b1bdc5;
 
   /*Identical Part from TheFlow*/
   --content-width: 69%;
-  --cover-img-height:70vh;
-  --cover-img-min-width:100%;
+  --cover-img-height: 70vh;
+  --cover-img-min-width: 100%;
   --carousel-two-thumbnail-background-color: #ffffff;
   --details-default-icon-right-font-weight-strong: 500;
   --details-default-a-color: var(--color-active);
   --emotion-pictures-default-img-max-height: 58vh;
-  --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
-  --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
+  --emotion-pictures-with-button-img-max-height: var(
+    --emotion-pictures-default-img-max-height
+  );
+  --emotion-pictures-with-logo-img-max-height: var(
+    --emotion-pictures-default-img-max-height
+  );
   --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
   --emotion-pictures-with-title-bg-color-custom: var(--m-black);
-  --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
-  --font-family: 'HelveticaNowText';
-  --font-family-bold: 'HelveticaNowTextBold';
+  --emotion-pictures-with-title-img-max-height: var(
+    --emotion-pictures-default-img-max-height
+  );
+  --font-family: "HelveticaNowText";
+  --font-family-bold: "HelveticaNowTextBold";
   --font-family-secondary: var(--font-family);
   --footer-default-a-color: var(--color);
   --footer-default-footer-margin: 3% auto auto auto;
@@ -74,7 +78,7 @@
   --footer-default-content-width: 66%;
   --footer-default-h4-color: #ffffff;
   --footer-default-invert-a-color-hover-custom: var(--color-active);
-  --footer-default-invert-background-color-custom: #1C1C1C;
+  --footer-default-invert-background-color-custom: #1c1c1c;
   --footer-default-invert-svg-color-custom: #ffffff;
   --grid-2colums2rows-a-text-decoration: none;
   --h-color: #444;
@@ -87,9 +91,12 @@
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: #ffffff;
   --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
-  --header-default-content-width: max(calc(1200px - var(--content-spacing) * 2), 85%);
-  --header-default-logo-width-custom: min(10rem,190px);
-  --header-default-margin-custom:0;
+  --header-default-content-width: max(
+    calc(1200px - var(--content-spacing) * 2),
+    85%
+  );
+  --header-default-logo-width-custom: min(10rem, 190px);
+  --header-default-margin-custom: 0;
   --header-default-padding: 1% 27%;
   --header-default-width: 67%;
   --header-default-padding-mobile: 1 2%;
@@ -97,7 +104,9 @@
   --header-default-content-spacing: auto -7% auto auto;
   --hotspot-width: 22rem;
   --img-height-mobile: 20em;
-  --language-switcher-default-content-width: var(--header-default-content-width);
+  --language-switcher-default-content-width: var(
+    --header-default-content-width
+  );
   --logo-default-margin: 0 0 0 4%;
   --navigation-default-a-link-text-transform-custom: uppercase;
   --navigation-default-color-custom: var(--color);
@@ -115,6 +124,15 @@
   --underline-color-hover: var(--color-active);
   --underline-color-hover-custom: var(--color-active);
   --underline-font-weight: 600;
-  --picture-text-default-h-color:  var(--m-white);
-  --picture-text-default-content-wrapper-background-custom: linear-gradient(-180deg,rgba(255,255,255,0) 0,rgba(61,61,61,.3) 3%,rgba(61,61,61,.5) 4%,rgba(61,61,61,.6) 5%, rgba(14,14,14,.65) 16%, rgba(14,14,14,.8) 20%,rgba(14,14,14,.8) 100%);
+  --picture-text-default-h-color: var(--m-white);
+  --picture-text-default-content-wrapper-background-custom: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0) 0,
+    rgba(61, 61, 61, 0.3) 3%,
+    rgba(61, 61, 61, 0.5) 4%,
+    rgba(61, 61, 61, 0.6) 5%,
+    rgba(14, 14, 14, 0.65) 16%,
+    rgba(14, 14, 14, 0.8) 20%,
+    rgba(14, 14, 14, 0.8) 100%
+  );
 }
