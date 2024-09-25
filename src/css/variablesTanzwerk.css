@@ -95,19 +95,21 @@
     calc(1200px - var(--content-spacing) * 2),
     85%
   );
-  --header-default-logo-width-custom: min(10rem, 190px);
+  --header-default-logo-width-custom: min(8rem, 190px);
   --header-default-margin-custom: 0;
-  --header-default-padding: 1% 27%;
-  --header-default-width: 67%;
-  --header-default-padding-mobile: 1 2%;
-  --header-default-justify-content-custom: flex-end;
+  --header-default-margin-mobile-custom: 0;
+  --header-default-padding: 1rem 0 1rem 1%;
+  --header-default-width: 100%;
+  --header-default-padding-mobile: 0;
+  --header-default-justify-content-custom: center;
   --header-default-content-spacing: auto -7% auto auto;
   --hotspot-width: 22rem;
   --img-height-mobile: 20em;
   --language-switcher-default-content-width: var(
     --header-default-content-width
   );
-  --logo-default-margin: 0 0 0 4%;
+  --logo-default-margin: 0;
+  --logo-default-width-mobile-custom: min(5rem, 190px);
   --navigation-default-a-link-text-transform-custom: uppercase;
   --navigation-default-color-custom: var(--color);
   --navigation-default-margin: 3%;
