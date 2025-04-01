@@ -102,8 +102,8 @@
   --navigation-default-a-link-text-transform-custom: uppercase;
   --navigation-default-color-custom: var(--color);
   --navigation-default-margin: 3%;
-  --scale-up-img-width: 30%;
-  --scale-up-img-width-mobile: 80%;
+  --scale-up-img-width: 18%;
+  --scale-up-img-width-mobile: 30%;
   --scale-up-img-margin-mobile: -3% auto auto auto;
   --scale-up-img-margin: 7% auto auto auto;
   --teaser-tile-box-shadow: 0 0 50px rgba(169, 169, 169, 0.5);
@@ -111,6 +111,7 @@
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
+  --teaser-tile-figcaption-background-color-custom: #ffffff;
   --underline-color: var(--h-color);
   --underline-color-hover: var(--color-active);
   --underline-color-hover-custom: var(--color-active);
