@@ -6,15 +6,6 @@
   */
 
 
-/* Open Sans Font */
-@font-face {
-  font-family: 'OpenSans';
-  src: url(https://cdn.migros.ch/ch.migros/static/fonts/open%20sans/OpenSansRegular.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 :root {
   --background-color: #ffffff;
@@ -22,10 +13,37 @@
   --color-active: #ce272e;
   --color-disabled: #e9e9e9;
   --color-error: var(--color-active);
-  --color-hover: #444444;
+  --color-hover: #234678;
   --color-secondary: #244578;
-  --color-tertiary: var(--color-secondary);
-  --color: #777;
+  --color-tertiary: #FAF541;;
+  --color: #000000;
+  --a-color: #0090ff;
+  --a-color-hover: var(--color-secondary);
+  --underline-color-custom: var(--a-color);
+  --button-secondary-background-color-custom: var(--color-tertiary);
+  --button-secondary-border-color-custom: var(--color-tertiary);
+  --button-secondary-color-custom: var(--color);
+  --h-color: var(--color-secondary);
+
+  --h1-font-size: 2.5em;
+  --h1-font-weight: 700;
+
+  --h2-font-size: 2em;
+  --h2-font-weight: 600;
+
+  --h3-font-size: 1.75em;
+  --h3-font-weight: 600;
+
+  --h4-font-size: 1.5em;
+  --h4-font-weight: 500;
+
+  --h5-font-size: 1.25em;
+  --h5-font-weight: 500;
+
+
+  --h6-font-size: 1em;
+  --h6-font-weight: 400;
+
   --content-width: 69%;
   --cover-img-height: 70vh;
   --cover-img-min-width: 100%;
@@ -37,7 +55,7 @@
   --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
   --font-family-bold: var(--font-family);
   --font-family-secondary: var(--font-family);
-  --font-family: 'Arial';
+  --font-family: 'Arial', sans-serif;
   --footer-default-a-color: var(--color);
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration: none;
@@ -54,7 +72,7 @@
   --header-default-a-logo-top-mobile-custom: 0;
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: var(--m-white);
-  --header-default-padding: 1rem 0;
+  --header-default-padding: .5rem 0;
   --header-default-margin-custom: 0;
   --header-default-content-width: var(--content-with-global);
   --header-default-border-bottom-custom: 1px solid var(--m-gray-500);
@@ -73,8 +91,9 @@
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
-  --underline-color-hover-custom: var(--color-active);
+  /* --underline-color-hover-custom: var(--color-active);
   --underline-color-hover: var(--color-active);
   --underline-color: var(--h-color);
-  --underline-font-weight: 600;
+  --underline-font-weight: 600; */
+  --header-default-a-font-size-custom: 1.25em;
 }
