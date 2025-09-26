@@ -24,26 +24,18 @@
   --button-secondary-border-color-custom: var(--color-tertiary);
   --button-secondary-color-custom: var(--color);
   --h-color: var(--color-secondary);
-
   --h1-font-size: 2.5em;
   --h1-font-weight: 700;
-
   --h2-font-size: 2em;
   --h2-font-weight: 600;
-
   --h3-font-size: 1.75em;
   --h3-font-weight: 600;
-
   --h4-font-size: 1.5em;
   --h4-font-weight: 500;
-
   --h5-font-size: 1.25em;
   --h5-font-weight: 500;
-
-
   --h6-font-size: 1em;
   --h6-font-weight: 400;
-
   --content-width: 69%;
   --cover-img-height: 70vh;
   --cover-img-min-width: 100%;
@@ -91,9 +83,6 @@
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
-  /* --underline-color-hover-custom: var(--color-active);
-  --underline-color-hover: var(--color-active);
-  --underline-color: var(--h-color);
-  --underline-font-weight: 600; */
-  --header-default-a-font-size-custom: 1.25em;
+  --header-default-a-font-size-custom: 1.2em;
+  --navigation-default-a-link-font-size-no-scroll-mobile-custom: 1.25em;
 }
