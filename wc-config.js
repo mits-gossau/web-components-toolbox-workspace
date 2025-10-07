@@ -203,6 +203,11 @@
       selector: 'third-party-',
       url: 'web-components-toolbox/src/es/components/thirdParty/',
       separateFolder: true
+    },
+    {
+      selector: 'wsp-a-',
+      url: 'atoms/',
+      separateFolder: true
     }
   ] // directories
   // ↑↑↑ adjustable ↑↑↑
