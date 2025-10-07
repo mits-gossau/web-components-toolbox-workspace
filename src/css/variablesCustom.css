@@ -24,6 +24,8 @@
   --button-secondary-border-color-custom: var(--color-tertiary);
   --button-secondary-color-custom: var(--color);
   --h-color: var(--color-secondary);
+  --h-padding: 0.5em 0 0 0;
+  --h-margin-bottom: 0.25em;
   --h1-font-size: 2.5em;
   --h1-font-weight: 700;
   --h2-font-size: 2em;
