@@ -39,6 +39,8 @@
   --h5-font-weight: 500;
   --h6-font-size: 1em;
   --h6-font-weight: 400;
+  --footer-default-h4-font-weight: 700;
+  --footer-default-p-font-size:1.1em;
   --content-width: 69%;
   --cover-img-height: 70vh;
   --cover-img-min-width: 100%;
