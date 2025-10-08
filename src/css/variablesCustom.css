@@ -40,7 +40,7 @@
   --h6-font-size: 1em;
   --h6-font-weight: 400;
   --footer-default-h4-font-weight: 700;
-  --footer-default-p-font-size:1.1em;
+  --footer-default-p-font-size: 1.1em;
   --content-width: 69%;
   --cover-img-height: 70vh;
   --cover-img-min-width: 100%;
@@ -58,8 +58,8 @@
   --footer-default-a-text-decoration: none;
   --footer-default-a-text-underline-offset: 0.3em;
   --footer-default-content-width: 66%;
-  --footer-default-footer-margin: 3% auto auto auto;
-  --footer-default-h4-color: #ffffff;
+  --footer-default-footer-margin: 2em 0 0 0;
+  --footer-default-h4-color: var(--background-color);
   --footer-default-invert-a-color-hover-custom: var(--color-active);
   --footer-default-invert-background-color-custom: var(--color-secondary);
   --footer-default-invert-orange-background-color-custom: var(--color-secondary);
@@ -80,7 +80,6 @@
   --header-default-justify-content-custom: flex-end;
   --img-height-mobile: 20em;
   --navigation-default-color-custom: var(--color-secondary);
-  /* --navigation-default-padding: 0 0 0 200px; */
   --scale-up-img-margin-mobile: -3% auto auto auto;
   --scale-up-img-margin: 7% auto auto auto;
   --scale-up-img-width-mobile: 80%;
