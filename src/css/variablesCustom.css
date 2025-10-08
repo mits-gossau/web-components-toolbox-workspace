@@ -59,7 +59,7 @@
   --footer-default-footer-margin: 3% auto auto auto;
   --footer-default-h4-color: #ffffff;
   --footer-default-invert-a-color-hover-custom: var(--color-active);
-  --footer-default-invert-background-color-custom: #1C1C1C;
+  --footer-default-invert-background-color-custom: var(--color-secondary);
   --footer-default-invert-svg-color-custom: #ffffff;
   --grid-2colums2rows-a-text-decoration: none;
   --header-default-a-logo-top-custom: calc(70px / 2 - 140px / 2);
