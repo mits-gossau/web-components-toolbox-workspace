@@ -20,6 +20,7 @@
   --a-color: #0090ff;
   --a-color-hover: var(--color-secondary);
   --any-margin-top-first-child: 1.5em;
+  --underline-after-height: 1px;
   --underline-color-custom: var(--a-color);
   --button-secondary-background-color-custom: var(--color-tertiary);
   --button-secondary-border-color-custom: var(--color-tertiary);
@@ -92,6 +93,7 @@
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.5em 1em;
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
+  --teaser-tile-p-font-size-custom: 1em;
   --header-default-a-font-size-custom: 1.2em;
   --navigation-default-a-link-font-size-no-scroll-mobile-custom: 1.25em;
   --navigation-default-color-active: var(--a-color);
