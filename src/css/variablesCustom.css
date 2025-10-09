@@ -61,6 +61,9 @@
   --footer-default-content-width: 66%;
   --footer-default-footer-margin: 2em 0 0 0;
   --footer-default-h4-color: var(--background-color);
+  --footer-default-h4-font-size: 1.25em;
+  --footer-default-invert-color-hover-custom: var(--background-color);
+  --details-default-icon-right-h4-font-size-mobile: 1.25em;
   --footer-default-invert-a-color-hover-custom: var(--color-active);
   --footer-default-invert-background-color-custom: var(--color-secondary);
   --footer-default-invert-orange-background-color-custom: var(--color-secondary);
