@@ -97,4 +97,5 @@
   --header-default-a-font-size-custom: 1.2em;
   --navigation-default-a-link-font-size-no-scroll-mobile-custom: 1.25em;
   --navigation-default-color-active: var(--a-color);
+  --emotion-carousel-default-any-margin-top-first-child-custom: 0;
 }
