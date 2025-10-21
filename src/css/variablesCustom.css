@@ -94,8 +94,12 @@
   --teaser-tile-p-font-size: 1.3em;
   --teaser-tile-p-line-height-custom: 1.5em;
   --teaser-tile-p-font-size-custom: 1em;
+  --teaser-text-image-h2-color-custom: var(--color-secondary) !important;
+  --teaser-text-image-h2-color: var(--color-secondary) !important;
   --header-default-a-font-size-custom: 1.2em;
   --navigation-default-a-link-font-size-no-scroll-mobile-custom: 1.25em;
   --navigation-default-color-active: var(--a-color);
   --emotion-carousel-default-any-margin-top-first-child-custom: 0;
+  --details-default-h4-font-size: 1.25em;
+
 }
