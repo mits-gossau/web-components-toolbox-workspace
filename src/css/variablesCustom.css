@@ -5,9 +5,10 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+  --font-family-roboto: 'Roboto', sans-serif;
   --background-color: #ffffff;
   --carousel-two-thumbnail-background-color: #ffffff;
   --color-active: var(--a-color);
@@ -30,16 +31,21 @@
   --h-margin-bottom: 0.25em;
   --h1-font-size: 2.5em;
   --h1-font-weight: 700;
+  --h1-font-family: var(--font-family-roboto);
   --h2-font-size: 2em;
   --h2-font-weight: 600;
+  --h2-font-family: var(--font-family-roboto);
   --h3-font-size: 1.75em;
   --h3-font-weight: 600;
+  --h3-font-family: var(--font-family-roboto);
   --h4-font-size: 1.5em;
   --h4-font-weight: 500;
+  --h4-font-family: var(--font-family-roboto);
   --h5-font-size: 1.25em;
   --h5-font-weight: 500;
   --h6-font-size: 1em;
   --h6-font-weight: 400;
+  --h6-font-family: var(--font-family-roboto);
   --footer-default-h4-font-weight: 700;
   --footer-default-h4-margin: 0.5em 0 0 0;
   --footer-default-p-font-size: 1.1em;
