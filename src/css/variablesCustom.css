@@ -59,6 +59,7 @@
   --emotion-pictures-with-title-bg-background-color-custom: var(--m-white);
   --emotion-pictures-with-title-bg-color-custom: var(--m-black);
   --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
+  --emotion-pictures-with-video-h2-font-family-secondary-custom: var(--font-family-roboto);
   --font-family-bold: var(--font-family);
   --font-family-secondary: var(--font-family);
   --font-family: 'Arial', sans-serif;
@@ -108,5 +109,4 @@
   --navigation-default-color-active: var(--a-color);
   --emotion-carousel-default-any-margin-top-first-child-custom: 0;
   --details-default-h4-font-size: 1.25em;
-
 }
