@@ -62,7 +62,8 @@
   --emotion-pictures-with-video-h2-font-family-secondary-custom: var(--font-family-roboto);
   --font-family-bold: var(--font-family);
   --font-family-secondary: var(--font-family);
-  --font-family: 'Arial', sans-serif;
+  /*--font-family: 'Arial', sans-serif;*/
+  --font-family: var(--font-family-roboto);
   --footer-default-a-color: var(--color);
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration: none;
