@@ -79,7 +79,7 @@
   --footer-default-invert-svg-color-custom: #ffffff;
   --grid-2colums2rows-a-text-decoration: none;
   --header-default-a-logo-top-custom: calc(70px / 2 - 140px / 2);
-  --header-default-logo-width-custom: max(140px, 8vw);
+  --header-default-logo-width-custom: max(140px, 6vw);
   --header-default-a-logo-top-mobile-custom: 0;
   --header-default-a-menu-icon-background-color-custom: var(--color);
   --header-default-background-color-custom: var(--m-white);
