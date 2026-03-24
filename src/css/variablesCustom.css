@@ -102,4 +102,5 @@
   --navigation-default-color-active: var(--a-color);
   --emotion-carousel-default-any-margin-top-first-child-custom: 0;
   --details-default-h4-font-size: 1.25em;
+  --emotion-pictures-general-logo-img-width-custom: max(20vw, 150px);
 }
